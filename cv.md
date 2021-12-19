@@ -6,7 +6,7 @@
 - Telegram: @Robin_Cat
 
 
-![image](/68.jpg "photo")
+![image](./68.jpg "photo")
 
 
 ## About
