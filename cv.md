@@ -17,10 +17,10 @@ I am 31 years old, live in Russia. I want to learn how to create web application
 - HTML
 - CSS
 - SQL
-***
-- Photoshop
-- Figma
-- VS Code
+ 
+* Photoshop
+* Figma
+* VS Code
 
 
 ## Education
