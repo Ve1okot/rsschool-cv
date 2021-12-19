@@ -6,7 +6,7 @@
 - Telegram: @Robin_Cat
 
 
-![image](/68.gpg "photo")
+![image](/68.jpg "photo")
 
 
 ## About
@@ -35,3 +35,16 @@ Bachelor of Science: **Automation of Technological Processes** - 2018,
 ## English А1. Beginner
 
 
+## Code
+```
+function multiply(a, b){
+return  a * b
+}
+
+===
+
+const link = document.getElementById('some-link')
+        link.addEventListener('click', () => {
+            console.log('clicked!');
+})
+```
