@@ -1,0 +1,23 @@
+.red {
+    color:tomato;
+}
+
+@keyframes color-change {
+    0% {
+        color: antiquewhite;
+    }
+    33% {
+        color: burlywood;
+    }
+    66% {   
+        color: darksalmon;
+    }
+    100% {
+        color: lightcyan;
+    }
+}
+
+.dots {
+    font-size: 1.5rem;
+    animation: color-change infinite 2s linear;
+}
