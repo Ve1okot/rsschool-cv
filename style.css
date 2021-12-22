@@ -1,23 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #202020;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+}
+
+.section-title {    
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #002000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-list a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: #829985;
+  border-top: solid 1px transparent;
+  transition: 0.2s;
+}
+.nav-link:hover {
+    color: #868401;
+    border-top: solid 1px #868401;
+}
+
+.div-left {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.div-right {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.photo {
+    width: 200px;
+}
+
+header .div-right  {
+    align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .red {
-    color:tomato;
+  color: tomato;
 }
 
 @keyframes color-change {
-    0% {
-        color: antiquewhite;
-    }
-    33% {
-        color: burlywood;
-    }
-    66% {   
-        color: darksalmon;
-    }
-    100% {
-        color: lightcyan;
-    }
+  0% {
+    color: antiquewhite;
+  }
+  33% {
+    color: burlywood;
+  }
+  66% {
+    color: darksalmon;
+  }
+  100% {
+    color: lightcyan;
+  }
 }
 
 .dots {
-    font-size: 1.5rem;
-    animation: color-change infinite 2s linear;
+  font-size: 1.5rem;
+  animation: color-change infinite 2s linear;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
