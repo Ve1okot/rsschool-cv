@@ -7,80 +7,101 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-  color: #202020;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.container {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-}
-
-.section {
-  display: flex;
-}
-
-.section-title {    
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #002000;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
   padding: 0 20px;
-  line-height: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: whitesmoke;
+  background-color: #303030;
+  min-height: 100vh;
+  border-left: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
 }
 
-.nav-list a {
-  color: #829985;
-  text-decoration: none;
-  transition: color 0.5s;
-}
-
-.nav-link {
-  cursor: pointer;
-  color: #829985;
-  border-top: solid 1px transparent;
-  transition: 0.2s;
-}
-.nav-link:hover {
-    color: #868401;
-    border-top: solid 1px #868401;
-}
-
-.div-left {
-    width: 30%;
+.header {
+    position: relative;
+    margin-top: 10px;
     display: flex;
-    justify-content: end;
-    margin-right: 40px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
 
-.div-right {
+hr {
+    padding: 0;
+    width: 75%;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .header::after {
+    content: "";
     width: 70%;
-    display: flex;
-    justify-content: start;
-    margin-left: 30px;
+    height: 1px; 
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 15%;
+    background-color: #fff;    
+} */
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+  letter-spacing: 0.05em;
 }
 
-.photo {
-    width: 200px;
+.name-title {
+    margin: 10px auto;
 }
 
-header .div-right  {
-    align-items: end;
+.second-title {
+    margin-bottom: 10px;
 }
+
+.title-contacts {
+    margin: 0;
+    padding: 0;
+}
+
+.title-contacts {
+    color: tomato;
+}
+
+.contact-link img{
+    width: 35px;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.contact-link img:hover{
+    border-bottom: 2px solid tomato;
+}
+
+/* .title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 20px auto 10px auto;
+} */
+
+/* .second-title {
+    margin: 0;
+    padding: 0;
+  font-size: 18px;
+  display: block;
+} */
+
+
 
 
 
