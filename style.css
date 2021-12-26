@@ -7,14 +7,17 @@ html {
 }
 
 body {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   color: whitesmoke;
-  background-color: #303030;
+  background-color: #0b0b0b;
+}
+body {
+
+  max-width: 1200px;  
   min-height: 100vh;
   border-left: 2px solid whitesmoke;
   border-right: 2px solid whitesmoke;
@@ -22,86 +25,132 @@ body {
 
 .header {
     position: relative;
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
+    background: #0b0b0b url(./assets/images/69.png) no-repeat;
+    background-size: contain;
+    background-position: 30px 10px;
 }
 
 hr {
+  margin: 15px auto;
     padding: 0;
-    width: 75%;
+    /* width: 58%; */
+    width: 10%;
     color: whitesmoke;
-    margin-top: 20px;
-    margin-bottom: 50px;
 }
-
-/* .header::after {
-    content: "";
-    width: 70%;
-    height: 1px; 
-    position: absolute;
-    top: 100%;
-    bottom: 0;
-    left: 15%;
-    background-color: #fff;    
-} */
 
 h1, h2, h3 {
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: normal;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .name-title {
-    margin: 10px auto;
+    margin: 20px auto;
+    font-size: 2.2em;
 }
 
 .second-title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .title-contacts {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  color: tomato;
 }
 
-.title-contacts {
-    color: tomato;
+.contacts-list {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  list-style: none;
 }
 
-.contact-link img{
-    width: 35px;
-    padding: 3px;
-    border: 2px solid transparent;
-    border-radius: 5px;
+.contacts-link {
+  padding: 0 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.contacts-link img{
+    width: 33px;
+    height: 33px;
     transition: 0.2s;
 }
 
-.contact-link img:hover{
+.instagram-img {
+  padding: 2px;
+}
+
+.contacts-link a:hover{
     border-bottom: 2px solid tomato;
 }
 
-/* .title {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 40px;
-  font-weight: lighter;
+.footer .container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 100%;
+  width: 1200px;
+  height: 50px;
+  padding: 0;
+}
+
+.footer img {
+  height: 30px;
+}
+
+.footer-gihub {  
+  margin-left: 20px;
+}
+
+
+.gihub-link {
+  margin: 0;    
+  display: flex;
+  align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 20px auto 10px auto;
-} */
+  color: whitesmoke;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
 
-/* .second-title {
-    margin: 0;
-    padding: 0;
-  font-size: 18px;
-  display: block;
-} */
+.gihub-link:hover {
+  border-bottom: 2px solid tomato;
+}
+
+.velokot {
+  padding-left: 10px;
+  padding-top: 5px;
+}
 
 
+.footer-rss {
+  line-height: normal;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  margin-right: 20px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.footer-rss:hover {
+  border: 2px solid tomato;
+}
 
 
 
