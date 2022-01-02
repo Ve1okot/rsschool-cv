@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   color: whitesmoke;
   background-color: #0b0b0b;
-  display: flex;  
+  display: flex;
   flex-direction: column;
 }
 
@@ -48,38 +48,40 @@ body {
 }
 
 .header {
-    position: relative;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background: #0b0b0b url(./assets/images/69.png) no-repeat;
-    background-size: contain;
-    background-position: 50px 20px;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #0b0b0b url(./assets/images/69.png) no-repeat;
+  background-size: contain;
+  background-position: 50px 20px;
 }
 
 hr {
   margin: 20px auto;
-    width: 13%;
-    height: 1px;
-    color: whitesmoke;
+  width: 13%;
+  height: 1px;
+  color: whitesmoke;
 }
 
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: normal;
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
   letter-spacing: 0.1em;
 }
 
 .name-title {
-    margin: 20px auto;
-    font-size: 1.8em;
+  margin: 20px auto;
+  font-size: 1.8em;
 }
 
 .second-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .title-contacts {
@@ -93,19 +95,19 @@ h1, h2, h3 {
   margin-top: 10px;
   padding: 0;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
 
 .contacts-link {
   padding: 0 6px;
-  
+
 }
 
-.contacts-link img{
-    width: 33px;
-    height: 33px;    
+.contacts-link img {
+  width: 33px;
+  height: 33px;
 }
 
 .instagram-img {
@@ -116,7 +118,7 @@ h1, h2, h3 {
   transition: 0.3s;
 }
 
-.contacts-link a:hover{
+.contacts-link a:hover {
   filter: opacity(0.6);
 }
 
@@ -150,10 +152,10 @@ h1, h2, h3 {
 
 .feauters li {
   margin: 10px 0;
- font-weight: normal;
- color: whitesmoke;
- letter-spacing: normal;
- line-height: 1.3em;
+  font-weight: normal;
+  color: whitesmoke;
+  letter-spacing: normal;
+  line-height: 1.3em;
 }
 
 .code-title {
@@ -188,7 +190,7 @@ h1, h2, h3 {
 }
 
 .blue {
-color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .footer {
@@ -197,30 +199,30 @@ color: cornflowerblue;
   height: 70px;
 }
 
-.footer > .container {  
+.footer>.container {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
 .footer img {
   height: 30px;
 }
 
-.footer-github {  
+.footer-github {
   margin-left: 20px;
 }
 
 .github-link {
-  margin: 0;    
+  margin: 0;
   display: flex;
   align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: normal;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
   letter-spacing: 0.1em;
   color: whitesmoke;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
+  transition: 0.3s;
 }
 
 .github-link:hover {
@@ -237,7 +239,7 @@ color: cornflowerblue;
   background-color: whitesmoke;
   border-radius: 3px;
   margin-right: 20px;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .footer-rss:hover {
