@@ -34,3 +34,35 @@ Bachelor of Science: **Automation of Technological Processes** - 2018,
 
 
 ## English А1. Beginner
+
+
+## Code
+```
+const deleteBtn = document.querySelector('.delete_btn')
+const deleteForm = document.querySelector('.form_delete')
+    if (deleteBtn) {
+        deleteBtn.addEventListener('click', (event) => {
+        event.preventDefault()
+        if (window.confirm("Удалить эту запись?")) {
+            deleteForm.submit()
+        }
+    })
+    }
+   
+const materTd = document.querySelectorAll('.mater_td')    
+materTd.forEach((singleMater) => {
+        if (singleMater.textContent.includes("Мел")) {
+            singleMater.style.backgroundColor = "fcfcfc"
+        } else if (singleMater.textContent.includes("Глина")) {
+            singleMater.style.backgroundColor = "f5bb9f"
+        } else if (singleMater.textContent.includes("Бокситы")) {
+            singleMater.style.backgroundColor = "f5bb9f"
+        } else if (singleMater.textContent.includes("Бой")) {
+            singleMater.style.backgroundColor = "aaa"
+        } else {
+            singleMater.style.backgroundColor = ""
+        }        
+    })
+
+    document.querySelector('.total_span').innerHTML = "<?=$i-1?>"
+```
