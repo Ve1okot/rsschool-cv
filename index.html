@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link type="image/png" sizes="64x64" rel="icon" href="./assets/img/favicon.ico">
+</head>
+<body>
+    <div class="wrapper"></div>
+        <header class="header">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-link"><a href="#name">Name</a></li>
+                    <li class="nav-link"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-link"><a href="#summary">Summary</a></li>
+                    <li class="nav-link"><a href="#feauters">Feauters</a></li>
+                    <li class="nav-link"><a href="#code">Code</a></li>
+                    <li class="nav-link"><a href="#footer">Footer</a></li>
+                </ul>
+            </nav>
+            <h1 class="name-title" id="name">Skulkov Vyacheslav</h1>
+            <h3 class="second-title">Front-End Developer<br>(Beginner)</h3>
+
+            <div class="contacts">
+                <h3 class="title-contacts">Contacts:</h3>
+                <ul class="contacts-list" id="contacts">
+                    <li class="contacts-link"><a href="https://t.me/Robin_Cat"><img src="./assets/img/telegram.svg"
+                                alt="telegram" class="telegram-img"></a></li>
+                    <li class="contacts-link"><a href="https://discordapp.com/users/223731624993357824/"><img
+                                src="./assets/img/discord.svg" alt="discord" class="discord-img"></a></li>
+                    <li class="contacts-link"><a href="https://www.instagram.com/ve1okot/"><img
+                                src="./assets/img/instagram.svg" alt="instagram" class="instagram-img"></a></li>
+                </ul>
+            </div>
+        </header>
+
+        <hr class="hr">
+
+        <main class="main ">
+            <h2 class="summary-title">Summary</h2>
+                <div class="summary" id="summary">
+                    <p class="summary-text">
+                        I am 32 years old, live in Russia. I want to learn how to create web applications, understand how
+                        sites work in order to create good and user-friendly projects. I love my MTB, photography and cats.
+                        I love difficulties and enjoy solving them.
+                    </p>
+                </div>
+                <div class="feauters" id="feauters">
+                    <ul class="skills" id="skills">
+                        <li><span>Skills</span></li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+                    <ul class="software">
+                        <li><span>Software</span></li>
+                        <li>Photoshop</li>
+                        <li>Figma</li>
+                        <li>VS Code</li>
+                    </ul>
+                    <ul class="education">
+                        <li><span>Education</span></li>
+                        <li><p>Bachelor of Science:<br>Automation of Technological Processes - 2018<br>// Moscow
+                                    Institute of Steel and Alloys</p></li>
+                    </ul>
+                    <ul class="work-xp">
+                        <li><span>Work Exp</span></li>
+                        <li>2013-2018 Production worker</li>
+                        <li>2018-2022 Process Control Engineer</li>
+                    </ul>
+                    <ul class="languages">
+                        <li><span>Languages</span></li>
+                        <li>English А1. Beginner</li>
+                        <li>Russian native</li>
+                    </ul>
+                </div>
+    
+                <h2 class="code-title">Code</h2>
+    
+                    <div class="code" id="code">
+                        <pre><code>const <span class="orange">link</span> = <span class="blue">document.getElementById</span>(<span class="green">'some-link'</span>)
+        <span class="orange">link</span>.<span class="red">addEventListener</span>(<span class="green">'click'</span>, () => {
+            console.log(<span class="green">'clicked!'</span>);
+    })</code></pre>
+                    </div>
+
+        </main>
+    </div>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-github">
+                    <a class="github-link" href="https://github.com/Ve1okot"><img src="./assets/img/github.svg"
+                            alt="link:github@Ve1okot">
+                        <span class="velokot">Ve1okot</span></a>
+                </div>
+                <div class="footer-year">
+                    <p class="footer-date"></p>
+                </div>
+                <div class="footer-rss">
+                    <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg"
+                            alt="RSS School JS"></a>
+                </div>
+            </div>
+        </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
