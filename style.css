@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
   
-html {
+  html {
     scroll-behavior: smooth;
     height: 100%;
-}
-
-body {
+  }
+  
+  body {
     margin: 0 auto;
     padding: 0;
     max-width: 1000px;
@@ -24,28 +24,32 @@ body {
     background-color: #0b0b0b;
     display: flex;
     flex-direction: column;
-}
-
-.nav {
+  }
+  
+  .wrapper {
+    flex: 1;
+  }
+  
+  .nav {
     margin-bottom: 30px;
     margin-right: 30px;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-}
+  }
   
-.nav a {
+  .nav a {
     margin: 0 10px;
     color: whitesmoke;
     text-decoration: none;
     transition: 0.3s;
-}
+  }
   
-.nav a:hover {
+  .nav a:hover {
     opacity: 0.6;
-}
+  }
   
-.header {
+  .header {
     position: relative;
     margin-top: 30px;
     display: flex;
@@ -54,42 +58,41 @@ body {
     background: #0b0b0b url(./assets/img/photo.jpg) no-repeat;
     background-size: contain;
     background-position: 50px 20px;
-}
-
-
-hr {
+  }
+  
+  hr {
     margin: 20px auto;
     width: 13%;
     height: 1px;
     color: whitesmoke;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
-  padding: 0;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: normal;
-  letter-spacing: 0.1em;
-}
-
-.name-title {
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+  }
+  
+  .name-title {
     margin: 20px auto;
     font-size: 1.8em;
-}
+  }
   
-.second-title {
+  .second-title {
     margin-bottom: 20px;
-}
+  }
   
-.title-contacts {
+  .title-contacts {
     font-weight: normal;
     letter-spacing: 0.1em;
     color: tomato;
-}
+  }
   
-.contacts-list {
+  .contacts-list {
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -97,53 +100,121 @@ h3 {
     justify-content: center;
     align-items: center;
     list-style: none;
-}
+  }
   
-.contacts-link {
+  .contacts-link {
     padding: 0 6px;  
-}
+  }
   
-.contacts-link img {
+  .contacts-link img {
     width: 33px;
     height: 33px;
-}
+  }
   
-.instagram-img {
+  .instagram-img {
     padding: 2px;
-}
+  }
   
-.contacts-link a {
+  .contacts-link a {
     transition: 0.3s;
-}
+  }
   
-.contacts-link a:hover {
+  .contacts-link a:hover {
     filter: opacity(0.6);
-}
-
-
-
-
-.footer {
+  }
+  
+  .summary-title {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .summary-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 1em;
+  }
+  
+  .feauters {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+  
+  .feauters ul {
+    margin: 0 20px;
+    padding: 0.1px;
+    list-style: none;
+  }
+  
+  .feauters span {
+    color: tomato;
+    letter-spacing: 0.1em;
+  }
+  
+  .feauters li {
+    margin: 10px 0;
+    font-weight: normal;
+    color: whitesmoke;
+    letter-spacing: normal;
+    line-height: 1.3em;
+  }
+  
+  .code-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .code {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 26px;
+    padding-left: 44px;
+    height: fit-content;
+    font-size: 1rem;
+    width: 600px;
+    background-image: url(./assets/img/vscode.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .green {
+    color: aquamarine;
+  }
+  
+  .red {
+    color: tomato;
+  }
+  
+  .blue {
+    color: cornflowerblue;
+  }
+  
+  .footer {
     margin: 0 30px;
     padding: 0.1em;
     height: 70px;
-}
+  }
   
-.footer>.container {
+  .footer>.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
   
-.footer img {
+  .footer img {
     height: 30px;
-}
+  }
   
-.footer-github {
+  .footer-github {
     margin-left: 20px;
-}
+  }
   
-.github-link {
+  .github-link {
     margin: 0;
     display: flex;
     align-items: center;
@@ -153,27 +224,25 @@ h3 {
     color: whitesmoke;
     text-decoration: none;
     transition: 0.3s;
-}
+  }
   
-.github-link:hover {
+  .github-link:hover {
     filter: opacity(0.6);
-}
+  }
   
-.velokot {
+  .velokot {
     padding-left: 10px;
     padding-top: 5px;
-}
+  }
   
-.footer-rss {
+  .footer-rss {
     line-height: normal;
     background-color: whitesmoke;
     border-radius: 3px;
     margin-right: 20px;
     transition: 0.3s;
-}
+  }
   
-.footer-rss:hover {
+  .footer-rss:hover {
     filter: opacity(0.6);
-}
-  
-  
+  }
